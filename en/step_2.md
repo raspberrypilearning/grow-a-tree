@@ -16,9 +16,26 @@ First we have to set the scene by choosing the Forest backdrop and Tree sprite. 
 
 --- task ---
 
-+ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. 
 ```blocks3
-when flag clicked
++when flag clicked
++move to (0) (-160) ::motion
++set size to [10%] ::looks
++say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
+forever
+	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
+		change size by (1) ::looks
+	else 
+		change size by (-1) ::looks ::control
+	end
+	if (touching [edge v] ? ::sensing) then ::control
+			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			stop [this script v]
+		end
+end
+```
++ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. 
+
+```blocks3
 move to (0) (-160) ::motion
 ```
 + Tree sprite is scaled to 10% of the size of the original tree image. You can alter its size by changing the percentage (%).
@@ -35,22 +52,43 @@ say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for
 
 ## Build the camera detector
 
-Currently the camera is set to pick up any motion on the stage.
+Currently the camera is set to pick up any motion on the stage. For this  we need the the forever block. The forever block ensures that all conditions are checked - forever - throughout the game.
 
-There's a conditional statement; if then, else.
-This basically means if the condition is met do the stated action, else do the other stated action.
+```blocks3
+when flag clicked
+move to (0) (-160) ::motion
+set size to [10%] ::looks
+say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
++forever
+	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
+		change size by (1) ::looks
+	else 
+		change size by (-1) ::looks ::control
+	end
+	if (touching [edge v] ? ::sensing) then ::control
+			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			stop [this script v]
+		end
+end
+
+```
+As well as the forver block  there is two conditional statements. Let's address the first conditional statement; if then, else.
+Conditional statements control if a condition is met do the stated action, else do the other stated action.
 
 It's even simpler to say:
 if a condition is met > then action
 else other action
 
 In the Grow a tree program:
-if (the player) moves less than 10 > then the action is to change the image value (size) of Tree sprite by 1.
+if (the player) moves less than 10 > then the action is to change the size (value) of Tree sprite by 1.
 ```blocks3
-if (video [motion v] on [stage v] ::video) < (10) then ::control
-change size by (1) ::looks
+	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
+		change size by (1) ::looks
+	else 
+		change size by (-1) ::looks ::control
+	end
 ```
-else the action is to shrink Tree sprite by -1! 
+else the action is to shrink the size (value of Tree sprite by -1! 
 ```blocks3
 change size by (-1) ::looks
 ```
@@ -66,8 +104,6 @@ change size by (-1) ::looks
 ```blocks3
 ```
 --- /task ---
-
-Once last thing, note both conditional statements sit within a forever block. This block ensures that all conditions are checked - forever - throughout the game.
 
 ## Stop the tree from getting too big!
 There's one more conditional statment; if then. It's a little simpler:
