@@ -8,11 +8,7 @@ Doing nothing is the aim of the game here - less produces more! Hmmm that's phil
 
 ### What you will make
 
---- no-print ---
-
---- print-only ---
 ![Complete project](images/stillness.png)
---- /print-only ---
 
 --- collapse ---
 ---
