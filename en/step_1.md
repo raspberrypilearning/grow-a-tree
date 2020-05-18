@@ -9,7 +9,7 @@ Doing nothing is the aim of the game here - less produces more! Hmmm that's phil
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+Click the green flag to start to play. Stay as still as possible and follow the instructions embedded in the game.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/396479175/autostart=false" frameborder="0"></iframe>
