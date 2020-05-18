@@ -2,7 +2,7 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-You should see you! And a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible and the tree will grow.
+You should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible and the tree will grow.
 
 Click the green flag to play and follow the instructions embedded in the game.
 
@@ -12,7 +12,7 @@ Click the green flag to play and follow the instructions embedded in the game.
 
 ## Set the screen
 
-First we have to set the scene by choosing the Forest backdrop and Tree sprite. We then have to 'plant' Tree (i.e. choose where the sprite is within the stage) and then we have to steer the player with opening instructions. There's a lot to do!
+First we have set the scene with a Forest backdrop and a Tree sprite. Can you help replant the tree and improve the instructions for the player?
 
 --- task ---
 
@@ -38,7 +38,7 @@ end
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ Tree sprite is scaled to 10% of the size of the original tree image. You can alter its size by changing the percentage (%).
++ Tree sprite is scaled to 10% of the size of the original tree image. Alter its size by changing the percentage (%).
 
 ```blocks3
 set size to [10%] ::looks
@@ -52,7 +52,7 @@ say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for
 
 ## Build the camera detector
 
-Currently the camera is set to pick up any motion on the stage. For this  we need the the forever block. The forever block ensures that all conditions are checked - forever - throughout the game.
+Currently the camera is set to pick up any motion on the stage. For this we are using a forever block to ensure that all the following conditions are checked - forever - throughout the game.
 
 ```blocks3
 when flag clicked
@@ -72,8 +72,10 @@ say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for
 end
 
 ```
-As well as the forver block  there is two conditional statements. Let's address the first conditional statement; if then, else.
-Conditional statements control if a condition is met do the stated action, else do the other stated action.
+As well as the forever block there are two conditional statements. Conditional statements are great for creating games which involve user interaction.
+
+Let's address the first conditional statement; if then, else.
+if then, else checks whether a condition has been met. If it has, then it allows the stated action to go ahead, else it allows another stated action. 
 
 It's even simpler to say:
 if a condition is met > then action
@@ -81,6 +83,8 @@ else other action
 
 In the Grow a tree program:
 if (the player) moves less than 10 > then the action is to change the size (value) of Tree sprite by 1.
+else the action is to shrink the size (value of Tree sprite by -1! 
+
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
 		change size by (1) ::looks
@@ -88,22 +92,15 @@ if (the player) moves less than 10 > then the action is to change the size (valu
 		change size by (-1) ::looks ::control
 	end
 ```
-else the action is to shrink the size (value of Tree sprite by -1! 
+Shrinking the tree vy -1 is the player's punishment for moving too much!.
+
+--- task ---
++ Test the game for other players by changing the Tree sprite's size (value).
 ```blocks3
 change size by (-1) ::looks
 ```
-(Shrinking the tree is the player's punishment for moving too much!).
-
---- task ---
-+ You're testing the game for other players. Do you think the game feels more reactive when you increase or decrease the image value?
-
-+ Have a go at changing the images value (size) for then.
-```blocks3
-```
-+ Now have a go at changing the images value (size) for else.
-```blocks3
-```
 --- /task ---
+Do you think the game feels more reactive when you increase or decrease the image size (value)?
 
 ## Stop the tree from getting too big!
 There's one more conditional statment; if then. It's a little simpler:
@@ -113,7 +110,7 @@ if the Tree sprite touches the edge of the stage > then the action is say "You d
 if (touching [edge v] ? ::sensing) then ::control
 say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
 ```
-Included in the action is 'stop this script' which stops the whole program!
+Also included in the action is 'stop this script' - this stops the whole program!
 ```blocks3
 stop [this script v]
 ```
