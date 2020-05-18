@@ -20,16 +20,16 @@ First we have to set the scene by choosing the Forest backdrop and Tree sprite. 
 ```blocks3
 when flag clicked
 move to (0) (-160) ::motion
-set size to [10%] ::looks
-say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
 ```
 + Tree sprite is scaled to 10% of the size of the original tree image. You can alter its size by changing the percentage (%).
 
 ```blocks3
+set size to [10%] ::looks
 ```
 + Next we need to let the player know how to play the game! The instructions currently day "Keep still to grow the tree. Top tip - it helps to lean on your hands." That's a bit dull, eh? Can you jazz up the instructions a bit?
 
 ```blocks3
+say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
 ```
 --- /task ---
 
@@ -46,8 +46,14 @@ else other action
 
 In the Grow a tree program:
 if (the player) moves less than 10 > then the action is to change the image value (size) of Tree sprite by 1.
+```blocks3
+if (video [motion v] on [stage v] ::video) < (10) then ::control
+change size by (1) ::looks
+```
 else the action is to shrink Tree sprite by -1! 
-
+```blocks3
+change size by (-1) ::looks
+```
 (Shrinking the tree is the player's punishment for moving too much!).
 
 --- task ---
@@ -67,9 +73,14 @@ Once last thing, note both conditional statements sit within a forever block. Th
 There's one more conditional statment; if then. It's a little simpler:
 
 if the Tree sprite touches the edge of the stage > then the action is say "You did it! Stand on one leg to make it harder and click the green flag to play again." 
-
+```blocks3
+if (touching [edge v] ? ::sensing) then ::control
+say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+```
 Included in the action is 'stop this script' which stops the whole program!
-
+```blocks3
+stop [this script v]
+```
 Importantly 'stop this script' stops the tree from growing. If the tree grew too big it would fill the screen and the game would never end. And we all need to go home sometime today!
 
 'stop this script' also stops the forever block from checking those conditions. The forever block can now relax.
@@ -81,5 +92,8 @@ Importantly 'stop this script' stops the tree from growing. If the tree grew too
 
 + Put the blocks back in the program again and re-run the program. Finger's crossed no blocks have gone astray. It should look like this:
 ```blocks3
+if (touching [edge v] ? ::sensing) then ::control
+say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+stop [this script v]
 ```
 --- /task ---
