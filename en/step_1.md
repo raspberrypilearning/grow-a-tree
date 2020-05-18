@@ -2,9 +2,9 @@
 
 How still can you be?
 
-Make a movement detector using Scratch's Video Sensing block. The camera detects player movement - the more the player stays still, the more the tree grows.
+Make a movement detector using Scratch's Video Sensing block. The camera detects a player's movement - the stiller the player is, the more the tree grows.
 
-Doing nothing is the aim of the game here - less produces more! Hmmm that's philisophical.
+Doing nothing is the aim of the game here - less is more! Hmmm, that's so philisophical.
 
 ### What you will make
 
