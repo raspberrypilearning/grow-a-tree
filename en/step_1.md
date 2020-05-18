@@ -9,7 +9,6 @@ Doing nothing is the aim of the game here - less produces more! Hmmm that's phil
 ### What you will make
 
 --- no-print ---
-Click the green flag to start to play. Stay as still as possible and follow the instructions embedded in the game.
 
 --- print-only ---
 ![Complete project](images/stillness.png)
