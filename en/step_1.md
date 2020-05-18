@@ -1,6 +1,10 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+How still can you be?
+
+Make a movement detector using Scratch's Video Sensing block. The camera detects player movement - the more the player stays still, the more the tree grows.
+
+Doing nothing is the aim of the game here - less produces more! Hmmm that's philisophical.
 
 ### What you will make
 
@@ -8,12 +12,12 @@ Add project description here. What will learners be making?
 Add instructions for using the embedded content here.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/396479175/autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/stillness.png)
 --- /print-only ---
 
 --- collapse ---
@@ -22,17 +26,15 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A computer capable of running Scratch
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 3 (either online or offline)
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/project-name-go](http://rpf.io/grow-a-tree){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +43,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ Use the Scratch Extension Blocks: Video Sensing
++ Introduction to the conditional statment; if then, else
 
 --- /collapse ---
 
