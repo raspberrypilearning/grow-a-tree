@@ -1,7 +1,5 @@
 ## Step title
 
-(https://scratch.mit.edu/projects/3396479175){:target="_blank"}
-
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
 You should see you! And a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible and the tree will grow.
