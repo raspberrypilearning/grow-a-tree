@@ -4,9 +4,9 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-You should see you! And a teeny tiny tree. 
+You should see you! And a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible and the tree will grow.
 
-Click the green flag to play. Remember, stay as still as possible and follow the instructions embedded in the game.
+Click the green flag to play and follow the instructions embedded in the game.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/396479175/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
