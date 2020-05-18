@@ -10,26 +10,22 @@ Click the green flag to play and follow the instructions embedded in the game.
 <iframe src="https://scratch.mit.edu/projects/396479175/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-## Translate your message
+## Set the tree
 
-Think of the person you want to send your message to. We will call that person the 'respondent'. 
-
-What langauge does the respondent speak?
+First we have to set the scene, get the tree planted and steer the player with opening instructions.
 
 --- task ---
 
-+ Open the code editor. In the current message you are saying "How are things going in Palenstine?". Delete the message that is there and type in your own personal message.
++ Open the code editor. The tree is planted at x: 0 and y: -160. Feel free to plant it in a new position. 
 
-+ Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ The tree is scaled to 10% of the size of the original tree image. You can alter % for a bigger or smaller starting size.
+
 ```blocks3
-when flag clicked
-set voice to [tenor v] ::tts
-(translate [How are things going in Palenstine?] to [Arabic v] ::translate) ::tts
-say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
-Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
++ Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
-+ If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits.
++ Next we need to let the player know how to play the game! The instructions currently day "Keep still to grow the tree. Top tip - it helps to lean on your hands." That's a bit dull - why not jazz up the instructions?
+
 ```blocks3
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
