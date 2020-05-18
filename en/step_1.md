@@ -8,8 +8,11 @@ Doing nothing is the aim of the game here - less is more! Hmmm, that's so philis
 
 ### What you will make
 
-![Complete project](images/stillness.png)
-
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/396479175"
+frameborder="0"></iframe>
+</div>
+--- /no-print ---
 --- collapse ---
 ---
 title: What you will need
