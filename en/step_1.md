@@ -34,7 +34,7 @@ title: What you will need
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/grow-a-tree){:target="_blank"}
++ [rpf.io/grow-a-tree](http://rpf.io/grow-a-tree){:target="_blank"}
 
 --- /collapse ---
 
