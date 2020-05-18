@@ -1,4 +1,4 @@
-## Step title
+## How still can you be?
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
@@ -10,48 +10,55 @@ Click the green flag to play and follow the instructions embedded in the game.
 <iframe src="https://scratch.mit.edu/projects/396479175/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-## Set the tree
+## Set the screen
 
 First we have to set the scene, get the tree planted and steer the player with opening instructions.
 
 --- task ---
 
 + Open the code editor. The tree is planted at x: 0 and y: -160. Feel free to plant it in a new position. 
-
+```blocks3
+```
 + The tree is scaled to 10% of the size of the original tree image. You can alter % for a bigger or smaller starting size.
 
 ```blocks3
 ```
-+ Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
-
-+ Next we need to let the player know how to play the game! The instructions currently day "Keep still to grow the tree. Top tip - it helps to lean on your hands." That's a bit dull - why not jazz up the instructions?
++ Next we need to let the player know how to play the game! The instructions currently day "Keep still to grow the tree. Top tip - it helps to lean on your hands." That's a bit dull, eh? - can you jazz up the instructions a bit?
 
 ```blocks3
-say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
-```
-+ If you like, change the tone of the voice so it  represents you.
-```blocks3
-set voice to [tenor v] ::tts
 ```
 --- /task ---
 
-## Change your sprite
+## Build the camera detector
 
-![Access You](images/you.png)
+Currently the camera is set to pick up any motion on the stage.
 
-As the message is from you, why not make sure the sprite looks a bit like you? It will then appear that you’re the one speaking and typing the message!
+And now there's a conditional statement which is if then, else - if a condition is met do the action, else do another actions.
+
+if a condition is met > then action
+if (the player) moves less than 10 > then change the image size of the tree by 1.
+
+else, the tree shrinks by -1! (that's the player's punishment for moving too much!).
 
 --- task ---
-+ Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite should have automatically changed.
-
-+ Run the program to see and hear yourself speaking another langauge. Impressive!
-
-![Access Costumes](images/Costumes.png)
-
+Have a go at changing the values for the movement.
+```blocks3
+```
+Now have a go at changing the values for the then and else images sizes.
+```blocks3
+```
 --- /task ---
-## Choose  a Backdrop
+
+Does it feel that the game more reactive if the tree's size parameters are greater?
+
+## Stop the tree from getting too big!
+There's another conditional statment; if then. 
+if the tree touches the edge of the stage > then say "You did it! Stand on one leg to make it harder and click the green flag to play again." 
+
+The same statement also stops the script - this stops eveything in the scripts including, importantly, the tree from growing. If the tree grew too big it would fill the screen and the game would never end.
+
 --- task ---
-
-+ The current backdrop is little too white! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
-
-![Access Choose a Backdrop](images/Choose a Backdrop.png)
+Test the if then by dragging the block below away from the main scripts and run the program again. Are we right? Does that tree just keep on growing?
+```blocks3
+```
+--- /task ---
