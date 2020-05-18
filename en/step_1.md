@@ -34,7 +34,7 @@ title: What you will learn
 ---
 
 + Use the Scratch Extension Blocks: Video Sensing
-+ Introduction to the conditional statment; if then, else
++ Introduction to conditional statments; 'if then' and 'if then, else'
 
 --- /collapse ---
 
