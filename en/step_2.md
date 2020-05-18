@@ -18,6 +18,10 @@ First we have to set the scene by choosing the Forest backdrop and Tree sprite. 
 
 + Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. 
 ```blocks3
+when flag clicked
+move to (0) (-160) ::motion
+set size to [10%] ::looks
+say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
 ```
 + Tree sprite is scaled to 10% of the size of the original tree image. You can alter its size by changing the percentage (%).
 
