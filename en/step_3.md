@@ -13,7 +13,7 @@ if <(video [motion v] on [stage v] ::video) < (10)> then ::control
 		change size by (1) ::looks
 	else 
 		change size by (-1) ::looks ::control
-    +say [You can do it!] for (0.5) seconds ::looks
++ say [You can do it!] for (0.5) seconds ::looks
 	end
 ```
 Run the program. Is it working well?
