@@ -1,12 +1,16 @@
 ## Challenge
 
-Currently, when the Tree sprits reaches the edge of the stage is stops growing.
+Currently, when the Tree sprite reaches the edge of the stage area is stops growing.
 
 --- task ---
-+ Add some code to make something more interesting happen.
++ Add a new block of code to make something more interesting happen.
+
+What about the tree produces an apple?
 --- /task ---
 
-Currently, when the player stays still the treee grows.
+Currently, when the player stays still the tree grows.
 --- task ---
-Try changing the code so that something different happens when you stay still. 
+Try adding a new block of code to make something additional happens when you stay still. 
+
+What about some words of encouragment?
 --- /task ---
