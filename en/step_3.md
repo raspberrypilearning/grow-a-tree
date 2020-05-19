@@ -1,4 +1,4 @@
-## 'Challenge: if then'
+## Challenge: if then
 
 Currently, when the player stays still the tree grows.
 --- task ---
