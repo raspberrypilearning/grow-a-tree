@@ -12,7 +12,7 @@ Click the green flag to play the game.
 
 ## Set the screen
 
-Replant the tree, grow it a little and improve the instructions for the player! You're going to work on the first part of the program.
+Replant Tree sprite, grow it a little and improve the instructions for the player! You're going to work on the first part of the program.
 
 --- task ---
 + Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
@@ -41,7 +41,7 @@ The camera is set to pick up any motion on the stage.
 ```
 In the first condition:
 if the player moves less than 10 then, the size of Tree sprite increases by 1.
-else the Tree sprite shrinks by -1! 
+else Tree sprite shrinks by -1! 
 
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
@@ -50,7 +50,7 @@ else the Tree sprite shrinks by -1!
 		change size by (-1) ::looks ::control
 	end
 ```
-Shrinking the tree by -1 is the player's punishment for moving too much!.
+Shrinking Tree sprite by -1 is the player's punishment for moving too much!.
 
 --- task ---
 + Test the game for future players by changing Tree sprite's size.
@@ -64,16 +64,16 @@ Run the program to check your modifications.
 --- /task ---
 Does the game feels more reactive if you increase and/or decrease Tree sprite's size? These are the kind of thing that Games Developers have to consider when designing for user interaction.
 
-## Stop the tree from getting too big!
+## Stop Tree sprite from getting too big!
 There's a second condition.
 
-if the Tree sprite touches the edge of the stage then, say block is actioned with "Try again!" 
+if Tree sprite touches the edge of the stage then, say block is actioned with "Try again!" 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Try again.] for (2) seconds ::looks
 			stop [this script v]
 ```
-Also included in this action is 'stop this script' - this stops the tree from growing so it doesn't get too big for the stage.
+Also included in this action is 'stop this script' - this stops Tree sprite from growing so it doesn't get too big for the stage.
 
 'stop this script' also stops the forever block. It can now relax.
 
