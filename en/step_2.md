@@ -70,7 +70,7 @@ There's a second condition.
 if Tree sprite touches the edge of the stage then, say block is actioned with "Try again!" 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
-			say [Try again.] for (2) seconds ::looks
+			say [Try again standing on one leg!] for (2) seconds ::looks
 			stop [this script v]
 ```
 Also included in this action is 'stop this script' - this stops Tree sprite from growing so it doesn't get too big for the stage.
@@ -81,7 +81,7 @@ Also included in this action is 'stop this script' - this stops Tree sprite from
 + Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
-			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			say [Try again standing on one leg!] for (2) seconds ::looks
 			stop [this script v]
 ```
 + Does that tree just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
