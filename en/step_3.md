@@ -2,9 +2,9 @@
 
 Currently, when the player stays still the tree grows.
 --- task ---
-Try adding a new block of code to make something additional happens when you stay still. 
++ Try adding a new block of code to make something additional happens when you stay still. 
 
-What about some words of encouragment?
++ What about some words of encouragement?
 ```blocks3
 +if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
 		change size by (1) ::looks
@@ -18,9 +18,9 @@ What about some words of encouragment?
 Currently, when the Tree sprite reaches the edge of the stage area is stops growing.
 
 --- task ---
-+ Add a new block of code to make something more interesting happen.
++ Add a new block of code to make something interesting happen.
 
-How about the tree produces an apple?
++ How about the tree produces an apple when it grows big enough?
 ```blocks3
 +if (touching [edge v] ? ::sensing) then ::control
 			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
@@ -28,7 +28,7 @@ How about the tree produces an apple?
 			stop [this script v] 
 	end
 ```
-Can you find this Looks block -  it's purple!
+Can you find the Say block under Looks? -  it's purple!
 --- /task ---
 
 
