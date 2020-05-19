@@ -30,7 +30,7 @@ Currently, when Tree sprite reaches the edge of the stage is stops growing.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Stay still!] for (2) seconds ::looks
-      +switch costume [Apple v] ::looks
++ switch costume [Apple v] ::looks
 			stop [this script v] 
 	end
 ```
