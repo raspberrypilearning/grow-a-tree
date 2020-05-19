@@ -2,9 +2,9 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Below, you should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Stay as still as possible to make the tree grow. The project works best in full screen mode.
+Below, you should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Stay as still as possible to make the tree grow. 
 
-Click the green flag to play the game.
+Click the green flag to play the game. The project works best in full screen mode.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/396479175/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
