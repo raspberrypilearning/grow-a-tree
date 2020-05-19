@@ -2,7 +2,7 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-You should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible and the tree will grow.
+You should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Remember, stay as still as possible to make the tree grow.
 
 Click the green flag to play and follow the instructions embedded in the game.
 
@@ -12,7 +12,7 @@ Click the green flag to play and follow the instructions embedded in the game.
 
 ## Set the screen
 
-First we have set the scene with a Forest backdrop and a Tree sprite. Can you help replant the tree and improve the instructions for the player?
+The scene is set with a Forest backdrop and a Tree sprite. Can you help replant the tree and improve the instructions for the player?
 
 --- task ---
 
@@ -33,13 +33,11 @@ forever
 		end
 end
 ```
-+ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. 
-
++ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. The very centre of the stage is x: 0 and y: 0.
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ Tree sprite is scaled to 10% of the size of the original tree image. Alter its size by changing the percentage (%).
-
++ The tree is scaled to 10% of the size of the original Tree sprite graphic. Reset its visible size by changing the percentage (%).
 ```blocks3
 set size to [10%] ::looks
 ```
@@ -48,11 +46,12 @@ set size to [10%] ::looks
 ```blocks3
 say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
 ```
+Run the program to check your modifications.
+
 --- /task ---
 
 ## Build the camera detector
-
-Currently the camera is set to pick up any motion on the stage. For this we are using a forever block to ensure that all the following conditions are checked - forever - throughout the game.
+Currently the camera is set to pick up any motion on the stage. The forever block wraps around the rest of the script to ensure that it constantly runs - forever - until the game ends.
 
 ```blocks3
 when flag clicked
@@ -72,7 +71,7 @@ say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for
 end
 
 ```
-As well as the forever block there are two conditional statements. Conditional statements are great for creating games which involve user interaction.
+Inside the forever block are two conditional statements. Conditional statements are great for creating games which involve user interaction.
 
 Let's address the first conditional statement; if then, else.
 if then, else checks whether a condition has been met. If it has, then it allows the stated action to go ahead, else it allows another stated action. 
@@ -108,22 +107,39 @@ There's one more conditional statment; if then. It's a little simpler:
 if the Tree sprite touches the edge of the stage > then the action is say "You did it! Stand on one leg to make it harder and click the green flag to play again." 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
-say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			stop [this script v]
 ```
 Also included in the action is 'stop this script' - this stops the whole program!
-```blocks3
-stop [this script v]
-```
-Importantly 'stop this script' stops the tree from growing. If the tree grew too big it would fill the screen and the game would never end. And we all need to go home sometime today!
 
-'stop this script' also stops the forever block from checking those conditions. The forever block can now relax.
+Importantly 'stop this script' stops the tree from growing. If the tree grew too big it would fill the screen and the game would never end!
+
+'stop this script' also stops the forever block from checking running. The forever block can now relax.
 
 --- task ---
-+ Test the last conditional statement; if then by dragging the if then blocks away from the main scripts. See below for whcih blocks to drag away. Run the program again.
++ Test the bottom conditional statement; if then by dragging it away from the main scripts. See below for whcih blocks to drag away. Run the program again.
+```blocks3
+when flag clicked
+move to (0) (-160) ::motion
+set size to [10%] ::looks
+say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
+forever
+	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
+		change size by (1) ::looks
+	else 
+		change size by (-1) ::looks ::control
+	end
+end
 
-+ Does that tree just keep on growing? Hmmm, nice but remember we do need to go home at some point!
 
-+ Put the blocks back in the program again and re-run the program. Finger's crossed no blocks have gone astray. It should look like this:
+if (touching [edge v] ? ::sensing) then ::control
+			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
+			stop [this script v]
+      
+ ```
++ Does that tree just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
+
++ Drag the blocks back in the program again and re-run the program. Finger's crossed no blocks have gone astray. It should look like this:
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
