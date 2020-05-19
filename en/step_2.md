@@ -19,7 +19,7 @@ Can you replant the tree, grow it a little and improve the instructions for the 
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ The Tree sprite is scaled to 10% of its actual size. Grow the Tree sprite's visible size at the start of the game by changing its percentage (%) value.
++ At the start of the game, the Tree sprite is scaled to 10% of its actual size. Kick start its size by changing its percentage (%) value.
 ```blocks3
 set size to [10%] ::looks
 ```
