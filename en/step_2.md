@@ -119,19 +119,6 @@ Importantly 'stop this script' stops the tree from growing. If the tree grew too
 --- task ---
 + Test the if, then conditional statement by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
 ```blocks3
-when flag clicked
-move to (0) (-160) ::motion
-set size to [10%] ::looks
-say [Keep still to grow the tree. Top tip - it helps to lean on your hands.] for (2) seconds ::looks
-forever
-	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
-		change size by (1) ::looks
-	else 
-		change size by (-1) ::looks ::control
-	end
-end
-
-
 if (touching [edge v] ? ::sensing) then ::control
 			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
 			stop [this script v]
