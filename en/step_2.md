@@ -12,14 +12,14 @@ Click the green flag to play the game.
 
 ## Set the screen
 
-Can you replant the tree, grow it a little and improve the instructions for the player? We're going to work on the first part of the program outlined in black.
+Replant the tree, grow it a little and improve the instructions for the player! You're going to work on the first part of the program.
 
 --- task ---
-+ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. The very centre of the stage is x: 0 and y: 0.
++ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ At the start of the game, the Tree sprite is scaled to 10% of its actual size. Kick start its size by changing its percentage (%) value.
++ At the start of the game, Tree sprite is scaled to 10% of its actual size. Kick start its size by changing its percentage (%) value.
 ```blocks3
 set size to [10%] ::looks
 ```
@@ -27,14 +27,19 @@ set size to [10%] ::looks
 ```blocks3
 say [Keep still!] for (2) seconds ::looks
 ```
-Run the program to check your modifications.
+Run the program to check your modifications for the program's set-up.
 --- /task ---
 
 ## Build the camera detector
-The camera is set to pick up any motion on the stage. The forever block wraps around the rest of the script to ensure that the program runs...forever or until the game ends.
+That's the set-up done. Now, a forever block wraps around the rest of the program so it runs forever until the game ends.
 
-Inside the forever block are two conditions - they are great for developing user interaction.
+Inside the forever block are two conditions - they are great for developing user interaction. Let's see how.
 
+The camera is set to pick up any motion on the stage.
+```blocks3
+<(video [motion v] on [stage v] ::video) < (10)>
+```
+In the first condition:
 if the player moves less than 10 then, the size of Tree sprite increases by 1.
 else the Tree sprite shrinks by -1! 
 
@@ -48,7 +53,7 @@ else the Tree sprite shrinks by -1!
 Shrinking the tree by -1 is the player's punishment for moving too much!.
 
 --- task ---
-+ Test the game for future players by changing the Tree sprite's size.
++ Test the game for future players by changing Tree sprite's size.
 ```blocks3
 change size by (1) ::looks
 ```
@@ -57,23 +62,23 @@ change size by (-1) ::looks
 ```
 Run the program to check your modifications.
 --- /task ---
-Does the game feels more reactive when you increase and/or decrease the Tree sprite's size? These are the kind of thing that Games Developers have to consider when designing for user interaction.
+Does the game feels more reactive if you increase and/or decrease Tree sprite's size? These are the kind of thing that Games Developers have to consider when designing for user interaction.
 
 ## Stop the tree from getting too big!
-There's one more condition.
+There's a second condition.
 
-if the Tree sprite touches the edge of the stage then, the action is say "Try again!" 
+if the Tree sprite touches the edge of the stage then, say block is actioned with "Try again!" 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Try again.] for (2) seconds ::looks
 			stop [this script v]
 ```
-Also included in the action is 'stop this script' - this stops the tree from growingso it doesn't get too big for the stage.
+Also included in this action is 'stop this script' - this stops the tree from growing so it doesn't get too big for the stage.
 
 'stop this script' also stops the forever block. It can now relax.
 
 --- task ---
-+ Test the if, then condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
++ Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
