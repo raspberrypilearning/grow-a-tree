@@ -14,10 +14,12 @@ Click the green flag to play the game. The project works best in full screen mod
 
 ## Set the screen
 
-Replant Tree sprite, grow it a little and improve the instructions for the player! You're going to work on the first part of the program.
+You're going to work on the first part of the program to replant Tree sprite, grow the tree a little and improve the instructions for the player!
 
 --- task ---
-+ Open the code editor. Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
++ Open the code editor. 
+
++ Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
 ```blocks3
 move to (0) (-160) ::motion
 ```
@@ -25,15 +27,15 @@ move to (0) (-160) ::motion
 ```blocks3
 set size to [10%] ::looks
 ```
-+ The instructions currently say "Keep still!". That's a bit dull, eh? Can you jazz up the instructions a bit?
++ The instructions currently say "Keep still!". That's a bit dull, eh? Can you jazz up the instructions?
 ```blocks3
 say [Keep still!] for (2) seconds ::looks
 ```
-Run the program to check your modifications for the program's set-up.
++ Run the program to check your modifications.
 --- /task ---
 
 ## Build the camera detector
-That's the set-up done. Now, a forever block wraps around the rest of the program so it runs forever until the game ends.
+That's the set-up done. Now, a forever block wraps around the rest of the program so it runs forever (or until the game ends).
 
 Inside the forever block are two conditions - they are great for developing user interaction. Let's see how.
 
@@ -62,9 +64,9 @@ change size by (1) ::looks
 ```blocks3
 change size by (-1) ::looks
 ```
-Run the program to check your modifications.
++ Run the program again to check your modifications.
 --- /task ---
-Does the game feels more reactive if you increase and/or decrease Tree sprite's size? These are the kind of thing that Games Developers have to consider when designing for user interaction.
+Does the game feels more reactive if you increase and/or decrease Tree sprite's size? These are the kind of things that Games Developers have to consider when designing for user interaction.
 
 ## Stop Tree sprite from getting too big!
 There's a second condition.
@@ -80,7 +82,7 @@ Also included in this action is 'stop this script' - this stops Tree sprite from
 'stop this script' also stops the forever block. It can now relax.
 
 --- task ---
-+ Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
++ Test the second condition by dragging the second condition away from the main scripts. Below highlights which blocks to drag away. Run the program again.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Try again standing on one leg!] for (2) seconds ::looks
@@ -88,7 +90,7 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 + Does that tree just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
 
-+ Drag the blocks back in to script again and re-run the program. Finger's crossed no blocks have gone astray. 
++ Drag the blocks back in to the script again. Finger's crossed no blocks have gone astray. 
 
 + Run the program to check.
 --- /task ---
