@@ -7,7 +7,7 @@ Below, you should see a forest backdrop and a teeny tiny tree in the bottom cent
 Click the green flag to play the game.
 
 <div>
-<iframe src="https://scratch.mit.edu/projects/396479175/editor/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/396479175/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 ## Set the screen
