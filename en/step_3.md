@@ -4,28 +4,28 @@ Currently, when the player stays still the tree grows.
 
 --- task ---
 
-+ Try adding a new block of code to make something additional happens when you stay still. 
++ Try adding a new block of code to make something additional happen when you stay still. 
 
-+ What about some words of encouragement?
++ What about some extra words of encouragement? Can you find the Say block in Looks? -  it's purple!
 
 ```blocks3
 if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
 		change size by (1) ::looks
 	else 
 		change size by (-1) ::looks ::control
-    say [Stay still!] for (0.5) seconds ::looks
+    say [You can do it!] for (0.5) seconds ::looks
 	end
 ```
 
 --- /task ---
 
-Currently, when the Tree sprite reaches the edge of the stage area is stops growing.
+Currently, when Tree sprite reaches the edge of the stage area is stops growing.
 
 --- task ---
 
 + Add a new block of code to make something interesting happen.
 
-+ How about the tree produces an apple when it grows big enough?
++ How about Tree sprite produces an Apple costume when it grows big enough? Can you find the switch costume block in Looks? -  it's purple!
 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
@@ -34,9 +34,6 @@ if (touching [edge v] ? ::sensing) then ::control
 			stop [this script v] 
 	end
 ```
-
-Can you find the Say block under Looks? -  it's purple!
-
 --- /task ---
 
 
