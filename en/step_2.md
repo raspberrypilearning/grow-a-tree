@@ -4,7 +4,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 Below, you should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Stay as still as possible to make the tree grow. The project works best in full screen mode.
 
-Click the green flag to play and follow the instructions embedded in the game.
+Click the green flag to play the game.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/396479175/editor/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -19,7 +19,7 @@ Can you replant the tree, grow it a little and improve the instructions for the 
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ The Tree sprite is scaled to 10% of its actual size. Grow the Tree sprite's visible size at the start of the gameby changing its percentage (%) value.
++ The Tree sprite is scaled to 10% of its actual size. Grow the Tree sprite's visible size at the start of the game by changing its percentage (%) value.
 ```blocks3
 set size to [10%] ::looks
 ```
