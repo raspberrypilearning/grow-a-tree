@@ -1,4 +1,4 @@
-## Challenge: changing actions in conditions
+## Challenge: changing conditions
 
 Currently, when the player stays still the tree grows.
 
