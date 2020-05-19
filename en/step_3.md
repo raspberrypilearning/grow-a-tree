@@ -9,11 +9,11 @@ Currently, when the player stays still the tree grows.
 + What about some words of encouragement?
 
 ```blocks3
-+if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
+if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
 		change size by (1) ::looks
 	else 
 		change size by (-1) ::looks ::control
-+say [Stay still!.] for (0.5) seconds ::looks
+    say [Stay still!] for (0.5) seconds ::looks
 	end
 ```
 
@@ -28,9 +28,9 @@ Currently, when the Tree sprite reaches the edge of the stage area is stops grow
 + How about the tree produces an apple when it grows big enough?
 
 ```blocks3
-+if (touching [edge v] ? ::sensing) then ::control
-			say [You did it! Stand on one leg to make it harder and click the green flag to play again.] for (2) seconds ::looks
-+switch costume [Apple v] ::looks
+if (touching [edge v] ? ::sensing) then ::control
+			say [Stay still!] for (2) seconds ::looks
+      switch costume [Apple v] ::looks
 			stop [this script v] 
 	end
 ```
