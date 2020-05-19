@@ -16,7 +16,7 @@ if <(video [motion v] on [stage v] ::video) < (10)> then ::control
     say [You can do it!] for (0.5) seconds ::looks
 	end
 ```
-
+Run the program. Is it working well?
 --- /task ---
 
 Currently, when Tree sprite reaches the edge of the stage area is stops growing.
@@ -34,6 +34,15 @@ if (touching [edge v] ? ::sensing) then ::control
 			stop [this script v] 
 	end
 ```
---- /task ---
++ Run the program. Is it working ok?
 
++ In order for Tree sprite to show a tree at the start of the game you will need to create a seperate script in Tree sprite.
+
+```blocks3
+when flag clicked
+switch costume [Tree v] ::looks
+--- /task ---
+	end
+```
++ Run the program.
 
