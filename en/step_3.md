@@ -38,11 +38,12 @@ if (touching [edge v] ? ::sensing) then ::control
 
 + In order for Tree sprite to show at the start of the game you will need to create a new seperate script in Tree sprite's code editor.
 
++ Run the program.
 ```blocks3
 when flag clicked
 switch costume [Tree v] ::looks
---- /task ---
-	end
 ```
-+ Run the program.
+--- /task ---
+
+
 
