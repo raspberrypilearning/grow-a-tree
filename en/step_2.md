@@ -33,9 +33,9 @@ say [Keep still!] for (2) seconds ::looks
 --- /task ---
 
 ## Build the camera detector
-That's the set-up done. A forever block wraps around the rest of the program so it runs forever (or until the game ends).
+That's the set-up done. A `forever`{:class="block3control"} block wraps around the rest of the program so it runs forever (or until the game ends).
 
-Inside the forever block are two conditions - they are great for developing user interaction. Let's see how.
+Inside the `forever`{:class="block3control"} block are two conditions - they are great for developing user interaction. Let's see how.
 
 The camera is set to pick up any motion on the stage.
 ```blocks3
@@ -67,7 +67,7 @@ Does the game feels more respinsive when you increase and/or decrease Tree sprit
 ## Stop Tree sprite from getting too big!
 Now to the second condition.
 
-If Tree sprite touches the edge of the stage then, the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block.
+If Tree sprite touches the edge of the stage then, the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the Tree sprite from growing so it doesn't get too big for the stage. It also stops the forever block.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
