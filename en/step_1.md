@@ -39,7 +39,7 @@ title: What you will learn
 ---
 
 + Use the Scratch Extension Blocks: `Video Sensing`{:class="block3videosensing"}
-+ Introduction to conditions: if () then and if () then, else
++ Introduction to conditions: `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}.
 
 --- /collapse ---
 
