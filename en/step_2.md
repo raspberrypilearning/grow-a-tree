@@ -53,7 +53,7 @@ In the first condition, if the player moves less than 10 then, the size of Tree 
 Shrinking Tree sprite by -1 is the player's punishment for moving too much!.
 
 --- task ---
-+ Test the game for future players by changing the amount Tree sprite's grows or shrinks.
++ Test the game for future players by changing the amount Tree sprite grows or shrinks.
 ```blocks3
 change size by (1) ::looks
 ```
