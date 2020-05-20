@@ -81,14 +81,10 @@ Also included in this action is 'stop this script' - this stops everything inclu
 
 --- task ---
 + Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
-```blocks3
-if (touching [edge v] ? ::sensing) then ::control
-			say [Try again standing on one leg!] for (2) seconds ::looks
-			stop [this script v]
-```
+
 + Does that tree just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
 
-+ Drag the blocks back in to the script again. Let's hope no blocks have gone astray.
++ Drag the blocks back in to the script again.
 
 + Run the program to check your changes.
 --- /task ---
