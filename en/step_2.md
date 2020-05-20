@@ -41,9 +41,7 @@ The camera is set to pick up any motion on the stage.
 ```blocks3
 <(video [motion v] on [stage v] ::video) < (10)>
 ```
-In the first condition:
-If the player moves less than 10 then, the size of Tree sprite increases by 1. 
-Else Tree sprite shrinks by -1! 
+In the first condition, if the player moves less than 10 then, the size of Tree sprite increases by 1, else Tree sprite shrinks by -1! 
 
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
