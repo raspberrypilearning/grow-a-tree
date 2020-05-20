@@ -2,6 +2,8 @@
 
 **Online**: Open the 'Grow a tree' starter Scratch project [www.rpf.io/grow-a-tree-on](http://rpf.io/grow-a-tree-on){:target="_blank"}.
 
+To open this project offline follow the link to the Scratch Offline Editor, [www.scratch.mit.edu/download (https://scratch.mit.edu/download){:target="_blank"}.
+
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
 Below, you should see a forest backdrop and a teeny tiny tree in the bottom centre of the screen. Stay as still as possible to make the tree grow. 
