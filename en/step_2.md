@@ -75,7 +75,7 @@ if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
 			stop [this script v]
 ```
-Also included in this action is 'stop this script' - this stops everything including Tree sprite from growing so it doesn't get too big for the stage.
+Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage.
 
 'stop this script' also stops the forever block. It can now relax!
 
