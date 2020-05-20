@@ -6,7 +6,7 @@ Currently, when the player stays still Tree sprite grows.
 
 + Try adding a single block of code to make something additional happen when the player stays still. 
 
-+ What about some extra words of encouragement such as 'You can do it!'? Find the Say block in Looks -  it's purple!
++ What about some extra words of encouragement such as 'You can do it!'? Find the `say`{:class="block3looks"} block -  it's purple!
 
 ```blocks3
 if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
@@ -25,7 +25,7 @@ Currently, when Tree sprite reaches the edge of the stage is stops growing.
 
 + Add a new block of code to make something interesting happen.
 
-+ For instance, Tree sprite could produce an Apple costume when it grows big enough. Can you find the switch costume block in Looks? Again, it's purple!
++ For instance, Tree sprite could produce an Apple costume when it grows big enough. Can you find the `switch costume`{:class="block3looks"} block in Looks? Again, it's purple!
 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
@@ -36,7 +36,7 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 + Run the program. Is it working ok?
 
-+ In order for Tree sprite to show at the start of the game you will need to create a new separate script in Tree sprite's code editor.
++ You will need to create a new separate script in Tree sprite's code editor so Tree sprite shows at the start of the game: `switch costume`{:class="block3looks"}
 
 + Run the program.
 ```blocks3
