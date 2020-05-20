@@ -25,7 +25,7 @@ You're going to work on the first part of the program to grow Tree sprite a litt
 ```blocks3
 set size to [10%] ::looks
 ```
-+ The instructions currently say "Keep still!". That's a bit dull. Can you jazz up the instructions?
++ The instructions currently say "Keep still!". That's a bit dull. Can you make the instructions more fun?
 ```blocks3
 say [Keep still!] for (2) seconds ::looks
 ```
@@ -82,7 +82,7 @@ Also included in this action is 'stop this script' - this stops the Tree sprite 
 --- task ---
 + Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
 
-+ Does that tree just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
++ Does Tree sprite just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
 
 + Drag the blocks back in to the script again.
 
