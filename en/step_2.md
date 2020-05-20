@@ -21,7 +21,7 @@ You're going to work on the first part of the program to replant Tree sprite, gr
 --- task ---
 + Open the code editor. 
 
-+ Tree sprite is currently planted at x: 0 and y: -160. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
++ Tree sprite is currently planted at x: 100 and y: -180. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
 ```blocks3
 move to (0) (-160) ::motion
 ```
