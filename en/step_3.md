@@ -36,7 +36,7 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 + Run the program. Is it working ok?
 
-+ You will need to create a new separate script in Tree sprite's code editor so Tree sprite shows at the start of the game: `switch costume`{:class="block3looks"}
++ You will need to create a new separate script in Tree sprite's code editor so the program `switches costume`{:class="block3looks"} back to Tree sprite at the start of the game. 
 
 + Run the program.
 ```blocks3
