@@ -69,16 +69,13 @@ Does the game feels more respinsive when you increase and/or decrease Tree sprit
 ## Stop Tree sprite from getting too big!
 Now to the second condition.
 
-if Tree sprite touches the edge of the stage then, the say block says "Well done!" 
++ if Tree sprite touches the edge of the stage then, the say block says "Well done!". Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block. It can now relax!
+
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
 			stop [this script v]
 ```
-Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage.
-
-'stop this script' also stops the forever block. It can now relax!
-
 --- task ---
 + Test the second condition by dragging the blocks above away from the main scripts. 
 
