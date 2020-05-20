@@ -80,11 +80,11 @@ Also included in this action is 'stop this script' - this stops the Tree sprite 
 'stop this script' also stops the forever block. It can now relax!
 
 --- task ---
-+ Test the second condition by dragging it away from the main scripts. Below highlights which blocks to drag away. Run the program again.
++ Test the second condition blocks by dragging it away from the main scripts. 
 
-+ Does Tree sprite just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
++ Run the program again. Does Tree sprite just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
 
-+ Drag the blocks back in to the script again.
++ Now, drag the blocks back in to the script again.
 
 + Run the program to check your changes.
 --- /task ---
