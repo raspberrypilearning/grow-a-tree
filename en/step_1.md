@@ -13,8 +13,11 @@ Doing nothing is the aim of this game - less is more!
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/396932945/"
 frameborder="0"></iframe>
 </div>
-
 --- /no-print ---
+
+--- print-only ---
+![complete project](images/stillness.png)
+--- /print-only ---
 --- collapse ---
 ---
 title: What you will need
