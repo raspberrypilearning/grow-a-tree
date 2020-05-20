@@ -16,15 +16,11 @@ Click the green flag to play the game. The project works best in full screen mod
 
 ## Set the screen
 
-You're going to work on the first part of the program to replant Tree sprite, grow it a little and improve the instructions for the player!
+You're going to work on the first part of the program to grow Tree sprite a little and improve the instructions for the player!
 
 --- task ---
 + Open the code editor. 
 
-+ Tree sprite is currently planted at x: 100 and y: -180. Feel free to plant it in a different position. By the way, the very centre of the stage is x: 0 and y: 0.
-```blocks3
-move to (0) (-160) ::motion
-```
 + At the start of the game, Tree sprite is scaled to 10% of its actual size. Why not start the tree at a larger percentage (%).
 ```blocks3
 set size to [10%] ::looks
