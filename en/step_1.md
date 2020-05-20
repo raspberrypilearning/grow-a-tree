@@ -10,7 +10,7 @@ Doing nothing is the aim of this game - less is more!
 
 --- no-print ---
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/396932945"
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/396932945/embed"
 frameborder="0"></iframe>
 </div>
 --- /no-print ---
