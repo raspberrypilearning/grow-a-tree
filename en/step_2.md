@@ -21,7 +21,9 @@ You're going to work on the first part of the program to grow Tree sprite a litt
 --- task ---
 + Open the code editor. 
 
-+ At the start of the game, Tree sprite is scaled to 10% of its actual size. Why not start the tree at a larger percentage (%).
++ `when green flag clicked` {:class=“block3events”} starts the game. 
+
++ Tree sprite is scaled to 10% of its actual size. Why not start the tree at a larger percentage (%).
 ```blocks3
 set size to [10%] ::looks
 ```
