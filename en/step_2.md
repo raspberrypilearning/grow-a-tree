@@ -25,7 +25,7 @@ You're going to work on the first part of the program to replant Tree sprite, gr
 ```blocks3
 move to (0) (-160) ::motion
 ```
-+ At the start of the game, Tree sprite is scaled to 10% of its actual size. Kick start its size by changing its percentage (%) value.
++ At the start of the game, Tree sprite is scaled to 10% of its actual size. Why not start the tree at a larger percentage (%).
 ```blocks3
 set size to [10%] ::looks
 ```
