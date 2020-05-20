@@ -8,7 +8,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 Below, you should see a forest backdrop and a teeny tiny tree in the bottom right of the screen. Stay as still as possible to make the tree grow.
 
-Click the green flag to play the game. The project works best in full screen mode.
+Click the `green flag`{:class="block3greenflag"} to play the game. The project works best in full screen mode.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/396932945/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -67,7 +67,7 @@ Does the game feels more respinsive when you increase and/or decrease Tree sprit
 ## Stop Tree sprite from getting too big!
 Now to the second condition.
 
-If Tree sprite touches the edge of the stage then, the`say`{:class="block3say"} block says "Well done!". Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block.
+If Tree sprite touches the edge of the stage then, the `say`{:class="block3say"} block says "Well done!". Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
