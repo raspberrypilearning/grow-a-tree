@@ -35,7 +35,7 @@ say [Keep still!] for (2) seconds ::looks
 ## Build the camera detector
 That's the set-up done. A `forever`{:class="block3control"} block wraps around the rest of the program so it runs forever (or until the game ends).
 
-Inside the `forever`{:class="block3control"} block are two conditions - they are great for developing user interaction. Let's see how.
+Inside the `forever`{:class="block3control"} block are two conditions `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"} - they are great for developing user interaction. Let's see how.
 
 The camera is set to pick up any motion on the stage.
 ```blocks3
