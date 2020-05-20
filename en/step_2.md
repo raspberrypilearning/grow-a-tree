@@ -42,8 +42,8 @@ The camera is set to pick up any motion on the stage.
 <(video [motion v] on [stage v] ::video) < (10)>
 ```
 In the first condition:
-+ if the player moves less than 10 then, the size of Tree sprite increases by 1. 
-+ else Tree sprite shrinks by -1! 
+If the player moves less than 10 then, the size of Tree sprite increases by 1. 
+Else Tree sprite shrinks by -1! 
 
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
@@ -69,7 +69,7 @@ Does the game feels more respinsive when you increase and/or decrease Tree sprit
 ## Stop Tree sprite from getting too big!
 Now to the second condition.
 
-+ if Tree sprite touches the edge of the stage then, the say block says "Well done!". Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block. It can now relax!
+If Tree sprite touches the edge of the stage then, the say block says "Well done!". Also included in this action is 'stop this script' - this stops the Tree sprite from growing so it doesn't get too big for the stage. 'stop this script' also stops the forever block. It can now relax!
 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
