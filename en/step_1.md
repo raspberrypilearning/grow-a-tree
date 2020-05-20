@@ -38,7 +38,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use the Scratch Extension Blocks: Video Sensing
++ Use the Scratch Extension Blocks: `Video Sensing`{:class="block3videosensing"}
 + Introduction to conditions: if () then and if () then, else
 
 --- /collapse ---
