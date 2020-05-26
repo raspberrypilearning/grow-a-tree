@@ -82,7 +82,7 @@ if (touching [edge v] ? ::sensing) then ::control
 			stop [this script v]
 ```
 --- task ---
-+ Test the second condition by dragging the blocks above away from the main scripts. 
++ Test the second condition by dragging the blocks highlighted above away from the main script in the Scratch project. 
 
 + Run the program again. Does Tree sprite just keep on growing? Hmmm, nice but remember we do need to end this game sometime soon!
 
