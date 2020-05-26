@@ -6,7 +6,7 @@ To open this project offline, follow the link to the Scratch Offline Editor: [ww
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Because this project uses the computer's camera you can only see it working as a Scratch project.
+Because this project uses the computer's camera you can only experience it working from with Scratch.
 
 Choose one of the above links to access the Scratch project Grow a tree. When you get there, click the green flag to play the game. The project works best in full screen mode.
 
@@ -17,10 +17,6 @@ Choose one of the above links to access the Scratch project Grow a tree. When yo
 --- print-only ---
 ![complete project](images/stillness.png)
 --- /print-only ---
-
-<div>
-<iframe src="https://scratch.mit.edu/projects/396932945/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
 
 ## Set the screen
 
