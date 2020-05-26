@@ -5,10 +5,7 @@ How still can you be? Make a movement detector using Scratch's Video Sensing blo
 ### What you will make
 
 --- no-print ---
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/396932945/embed"
-frameborder="0"></iframe>
-</div>
+![complete project](images/stillness.png)
 --- /no-print ---
 
 --- print-only ---
