@@ -4,6 +4,8 @@
 
 To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
+You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.io/grow-a-tree-go).
+
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
 Because this project uses the computer's camera you can only experience it working from with Scratch.
