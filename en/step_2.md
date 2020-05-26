@@ -11,11 +11,11 @@ Because this project uses the computer's camera you can only experience it worki
 Choose one of the above links to access the Scratch project Grow a tree. When you get there, click the green flag to play the game. The project works best in full screen mode.
 
 --- no-print ---
-![complete project](images/stillness.png)
+![complete project](images/selfie.png)
 --- /no-print ---
 
 --- print-only ---
-![complete project](images/stillness.png)
+![complete project](images/selfie.png)
 --- /print-only ---
 
 ## Set the screen
