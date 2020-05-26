@@ -70,7 +70,7 @@ change size by (-1) ::looks
 ```
 + Run the program again to check your changes. Top tip: cover the computer's camera with your finger to test your changes.
 --- /task ---
-Does the game feels more respinsive when you increase and/or decrease Tree sprite's size? These are the kind of things that Games Developers have to consider when designing for user interaction.
+Does the game feels more responsive when you increase and/or decrease Tree sprite's size? These are the kind of things that Games Developers have to consider when designing for user interaction.
 
 ## Stop Tree sprite from getting too big!
 Now to the second condition.
