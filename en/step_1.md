@@ -28,7 +28,7 @@ title: What you will need
 
 ### Downloads
 
-+ [rpf.io/grow-a-tree](http://rpf.io/grow-a-tree){:target="_blank"}
++ To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /collapse ---
 
