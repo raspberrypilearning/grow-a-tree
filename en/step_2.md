@@ -20,14 +20,14 @@ You should see yourself with a wood in the background and a tiny tree. The proje
 
 ## Set the screen
 
-You're going to work on the first part of the program to make Tree sprite a little bigger because Tree sprite is difficult to see at the start of the game. You're also going to improve the instructions for the player!
+Tree sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make Tree sprite bigger. You're also going to improve the instructions for the player!
 
 --- task ---
 + Open the code editor. 
 
 + `when green flag clicked`{:class="block3events"} starts the game. 
 
-+ Tree sprite is scaled to 10% of its actual size. Start the tree at a larger percentage (%).
++ Tree sprite is scaled to 10% of its actual size. Increase the percentage (%) to start Tree sprite at a bigger size.
 ```blocks3
 set size to [10%] ::looks
 ```
