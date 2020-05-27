@@ -8,9 +8,7 @@ You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Because this project uses the computer's camera you can only experience it working from with Scratch.
-
-Choose one of the above links to access the Scratch project Grow a tree. When you get there, click the green flag to play the game. The project works best in full screen mode.
+This project uses your computer's camera. In order to experience the project working you need to be within Scratch. Choose one of the above links to access Grow a tree in Scratch. Then click the green flag to play the game. The project works best in full screen mode.
 
 --- no-print ---
 ![complete project](images/selfie.png)
@@ -29,7 +27,7 @@ You're going to work on the first part of the program to grow Tree sprite a litt
 
 + `when green flag clicked`{:class="block3events"} starts the game. 
 
-+ Tree sprite is scaled to 10% of its actual size. Why not start the tree at a larger percentage (%).
++ Tree sprite is scaled to 10% of its actual size. Start the tree at a larger percentage (%).
 ```blocks3
 set size to [10%] ::looks
 ```
@@ -73,9 +71,9 @@ change size by (-1) ::looks
 Does the game feels more responsive when you increase and/or decrease Tree sprite's size? These are the kind of things that Games Developers have to consider when designing for user interaction.
 
 ## Stop Tree sprite from getting too big!
-Now to the second condition.
+Let's explore the second condition.
 
-If Tree sprite touches the edge of the stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the Tree sprite from growing so it doesn't get too big for the stage. It also stops the forever block.
+If Tree sprite touches the edge of the stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the Tree sprite from growing so the tree doesn't get too big for the stage. `stop this script`{:class="block3control"} also stops the forever block.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
