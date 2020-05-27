@@ -8,7 +8,7 @@ You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-This project uses your computer's camera. In order to experience the project working you need to be within Scratch. Choose one of the above links to access Grow a tree in Scratch. Then click the green flag to play the game. The project works best in full screen mode.
+You should see yourself with a wood in the background. Click the green flag to play the game. The project works best in full screen mode. Stay very still and the small tree will grow and grow. If you move, the tree will shrink in size.
 
 --- no-print ---
 ![complete project](images/selfie.png)
