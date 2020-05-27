@@ -8,7 +8,7 @@ You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-You should see yourself with a wood in the background. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the small tree will grow and grow. If you move, the tree will shrink in size.
+You should see yourself with a wood in the background and a tiny tree. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the tiny tree will grow and grow. If you move, the tree will shrink in size.
 
 --- no-print ---
 ![complete project](images/selfie.png)
@@ -20,7 +20,7 @@ You should see yourself with a wood in the background. The project works best in
 
 ## Set the screen
 
-You're going to work on the first part of the program to grow Tree sprite a little and improve the instructions for the player!
+You're going to work on the first part of the program to make Tree sprite a little bigger because Tree sprite is difficult to see at the start of the game. You're also going to improve the instructions for the player!
 
 --- task ---
 + Open the code editor. 
