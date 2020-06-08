@@ -5,7 +5,7 @@ How still can you be? Make a movement detector using Scratch's Video Sensing blo
 ### What you will make
 
 ![complete project](images/selfie.png)
-![complete project](images/tes.gif)
+![complete project](images/test.gif)
 --- collapse ---
 ---
 title: What you will need
