@@ -1,4 +1,4 @@
-# grow-a-tree
+# Grow a tree
 
 ![grow-a-tree](banner.png)
 
