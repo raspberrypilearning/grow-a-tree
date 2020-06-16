@@ -1,12 +1,8 @@
 ## How still can you be?
 
-**Online**: Open the 'Grow a tree' starter Scratch project [www.rpf.io/grow-a-tree-on](http://rpf.io/grow-a-tree-on){:target="_blank"}.
+**Online**: Open the 'Grow a tree' starter Scratch project [www.rpf.io/grow-a-tree-on](http://rpf.io/grow-a-tree-on){:target="_blank"}. If you have a Scratch account you can make a copy by clicking **Remix**.
 
-To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
-
-You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.io/grow-a-tree-go).
-
-If you have a Scratch account you can make a copy by clicking **Remix**.
+To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}. You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.io/grow-a-tree-go).
 
 You should see yourself with a wood in the background and a tiny tree. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the tiny tree will grow and grow. If you move, the tree will shrink in size.
 
