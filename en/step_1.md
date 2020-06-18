@@ -28,8 +28,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use the Scratch extension block; `Video Sensing`{:class="block3extensions"}
-+ Introduction to conditions; `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}
++ How to use the Scratch extension block; `Video Sensing`{:class="block3extensions"}
++ How to use conditions; `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}
 
 --- /collapse ---
 
