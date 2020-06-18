@@ -1,6 +1,6 @@
 ## Challenge: changing conditions
 
-Currently, when the player stays still Tree sprite grows.
+Currently, when the player stays still the Tree sprite grows.
 
 --- task ---
 
@@ -19,13 +19,13 @@ if <(video [motion v] on [stage v] ::video) < (10)> then ::control
 Run the program. Is it working well?
 --- /task ---
 
-Currently, when Tree sprite reaches the edge of the stage is stops growing.
+Currently, when the Tree sprite reaches the edge of the stage is stops growing.
 
 --- task ---
 
 + Add a new block of code to make something interesting happen.
 
-+ For instance, Tree sprite could produce an Apple costume when it grows big enough. Can you find the `switch costume`{:class="block3looks"} block in Looks? Again, it's purple!
++ For instance, the Tree sprite could produce an Apple costume when it grows big enough. Can you find the `switch costume`{:class="block3looks"} block in Looks? Again, it's purple!
 
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
@@ -36,7 +36,7 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 + Run the program. Is it working ok?
 
-+ You will need to create a new separate script in Tree sprite's code editor so the program `switch costume`{:class="block3looks"} back to Tree sprite at the start of the game. 
++ You will need to create a new separate script in the Tree sprite's code editor so the program `switch costume`{:class="block3looks"} back to the Tree sprite at the start of the game. 
 
 + Run the program.
 ```blocks3
