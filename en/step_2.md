@@ -1,6 +1,6 @@
 ## How still can you be?
 
-**Online**: Open the 'Grow a tree' starter Scratch project [www.rpf.io/grow-a-tree-on](http://rpf.io/grow-a-tree-on){:target="_blank"}. If you have a Scratch account you can make a copy by clicking **Remix**.
+**Online**: Open the **Grow a tree** starter Scratch project [www.rpf.io/grow-a-tree-on](http://rpf.io/grow-a-tree-on){:target="_blank"}. If you have a Scratch account you can make a copy by clicking **Remix**.
 
 To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}. You can then download the Starter project at [rpf.io/grow-a-tree-go](http://rpf.io/grow-a-tree-go).
 
@@ -16,10 +16,10 @@ You should see yourself with a wood in the background and a tiny tree. The proje
 
 ## Set the screen
 
-The Tree sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make the Tree sprite bigger. You're also going to improve the instructions for the player!
+The Tree sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make the Tree sprite bigger. You will also improve the instructions for the player!
 
 --- task ---
-+ Open the code editor. 
++ Open the **Code** editor.
 
 + `when green flag clicked`{:class="block3events"} starts the game. 
 
@@ -63,7 +63,9 @@ change size by (1) ::looks
 change size by (-1) ::looks
 ```
 + Run the program again to check your changes. Top tip: cover the computer's camera with your finger to test your changes.
+
 --- /task ---
+
 Does the game feel more responsive when you increase and/or decrease the size of Tree sprite? These are the kind of things that Games Developers have to consider when designing for user interaction.
 
 ## Stop Tree sprite from getting too big!
@@ -76,6 +78,7 @@ if (touching [edge v] ? ::sensing) then ::control
 			stop [this script v]
 ```
 --- task ---
+
 + Test the second condition by dragging the blocks (highlighted above) away from the main script in the Scratch project. 
 
 + Run the program again. Does the Tree sprite just keep on growing?
