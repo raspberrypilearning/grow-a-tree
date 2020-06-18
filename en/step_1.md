@@ -28,7 +28,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use the Scratch Extension Block; `Video Sensing`{:class="block3extensions"}
++ Use the Scratch Extension block; `Video Sensing`{:class="block3extensions"}
 + Introduction to conditions; `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}
 
 --- /collapse ---
@@ -38,10 +38,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-Open the 'Grow a tree?' finished Scratch project [online](http://rpf.io/grow-a-tree-get){:target="_blank"}.
+You can find the completed project [here](http://rpf.io/grow-a-tree-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
 
 --- /collapse ---
