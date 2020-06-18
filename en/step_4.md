@@ -1,6 +1,6 @@
 ## What next?
 
-You've done fantastically well exploring the Video Sensing block as  well as conditions!
+You've done fantastically well exploring the Video Sensing block as  well as conditions; `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}!
 
 There are other loads of Scratch games such as [Chatbot](https://projects.raspberrypi.org/en/projects/chatbot){:target="_blank"} and [Brain game](https://projects.raspberrypi.org/en/projects/brain-game){:target="_blank"} which use conditions to create user interaction.
 
