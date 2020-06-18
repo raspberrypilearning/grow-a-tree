@@ -8,4 +8,4 @@ Here are some other [projects which use Scratch's Video Sensing block](https://s
 
 Why not use the Video Sensing block as a movement detection to create a game of solo musical statues for a friend to play?
 
-Or you could explore two other Extension blocks `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"} in another Starter project [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}
+Or you could explore two other extension blocks `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"} in another Starter project [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}
