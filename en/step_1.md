@@ -18,6 +18,10 @@ title: What you will need
 
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
 
+### Downloads
+
++ Download the project [starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} if working offline
+
 --- /collapse ---
 
 --- collapse ---
