@@ -4,7 +4,13 @@ How still can you be? Make a movement detector using Scratch's Video Sensing ext
 
 ### What you will make
 
-![complete project](images/selfie.png)
+--- no-print ---
+![complete project](images/showcase.gif)
+--- /no-print ---
+
+--- print-only ---
+![complete project](images/showcase.png)
+--- /print-only ---
 
 --- collapse ---
 ---
