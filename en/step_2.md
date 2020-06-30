@@ -7,11 +7,11 @@ If working **offline**, open the project [starter file](http://rpf.io/p/en/grow-
 You should see yourself with a wood in the background and a tiny tree. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the tiny tree will grow and grow. If you move, the tree will shrink in size.
 
 --- no-print ---
-![complete project](images/selfie.png)
+![complete project](images/showcase.gif)
 --- /no-print ---
 
 --- print-only ---
-![complete project](images/selfie.png)
+![complete project](images/showcase.png)
 --- /print-only ---
 
 ## Set the screen
