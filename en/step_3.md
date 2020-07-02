@@ -6,7 +6,7 @@ Currently, when the player stays still the Tree sprite grows.
 
 + Try adding a single block of code to make something additional happen when the player stays still. 
 
-+ What about some extra words of encouragement such as "You can do it!"? Find the `say`{:class="block3looks"} block in Looks -  it's purple!
++ What about some extra words of encouragement such as "You can do it!"? Go to `Looks`{:class="block3looks"} and find the `say`{:class="block3looks"} -  it's purple!
 
 ```blocks3
 if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
