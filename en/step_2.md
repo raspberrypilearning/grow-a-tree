@@ -16,14 +16,14 @@ You should see yourself with a wood in the background and a tiny tree. The proje
 
 ## Set the screen
 
-The Tree sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make the Tree sprite bigger. You will also improve the instructions for the player!
+The **Tree** sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make the **Tree** sprite bigger. You will also improve the instructions for the player!
 
 --- task ---
 + Open the **Code** editor.
 
 + `when green flag clicked`{:class="block3events"} starts the game. 
 
-+ The Tree sprite is scaled to 10% of its actual size. Increase the percentage (%) to start the Tree sprite at a bigger size.
++ The **Tree** sprite is scaled to 10% of its actual size. Increase the percentage (%) to start the **Tree** sprite at a bigger size.
 ```blocks3
 set size to [10%] ::looks
 ```
@@ -43,7 +43,7 @@ The `Video Sensing`{:class="block3extensions"} is set to pick up any motion on t
 ```blocks3
 <(video [motion v] on [stage v] ::video) < (10)>
 ```
-In the first condition, if the player moves less than 10 then, the size of the Tree sprite increases by 1, else the Tree sprite shrinks by -1.
+In the first condition, if the player moves less than 10 then, the size of the **Tree** sprite increases by 1, else the **Tree** sprite shrinks by -1.
 
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
@@ -52,10 +52,10 @@ In the first condition, if the player moves less than 10 then, the size of the T
 		change size by (-1) ::looks ::control
 	end
 ```
-Shrinking the Tree sprite by -1 is the player's consequence for moving too much!
+Shrinking the **Tree** sprite by -1 is the player's consequence for moving too much!
 
 --- task ---
-+ Try to improve the game for future players by changing the amount the Tree sprite grows or shrinks.
++ Try to improve the game for future players by changing the amount the **Tree** sprite grows or shrinks.
 
 ```blocks3
 change size by (1) ::looks
@@ -67,12 +67,12 @@ change size by (-1) ::looks
 
 --- /task ---
 
-Does the game feel more responsive when you increase and/or decrease the size of Tree sprite? These are the kind of things that Games Developers have to consider when designing for user interaction.
+Does the game feel more responsive when you increase and/or decrease the size of **Tree** sprite? These are the kind of things that Games Developers have to consider when designing for user interaction.
 
-## Stop Tree sprite from getting too big!
+## Stop **Tree** sprite from getting too big!
 Let's explore the second condition.
 
-If the Tree sprite touches the edge of the stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the Tree sprite from growing so the tree doesn't get too big for the stage. `stop this script`{:class="block3control"} also stops the forever block.
+If the **Tree** sprite touches the edge of the stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the **Tree** sprite from growing so the tree doesn't get too big for the stage. `stop this script`{:class="block3control"} also stops the forever block.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
@@ -82,7 +82,7 @@ if (touching [edge v] ? ::sensing) then ::control
 
 + Test the second condition by dragging the blocks (highlighted above) away from the main script in the Scratch project. 
 
-+ Run the program again. Does the Tree sprite just keep on growing?
++ Run the program again. Does the **Tree** sprite just keep on growing?
 
 + Now, drag the blocks back in to the script again.
 
