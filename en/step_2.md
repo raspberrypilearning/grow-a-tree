@@ -2,7 +2,7 @@
 
 If working **online**, open the [starter project](http://rpf.io/p/en/grow-a-tree-on){:target="_blank"} in Scratch.
 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/grow-a-tree-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If working **offline**, open the project [starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see yourself with a wood in the background and a tiny tree. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the tiny tree will grow and grow. If you move, the tree will shrink in size.
 
