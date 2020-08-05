@@ -26,7 +26,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/grow-a-tree-get){:target="_blank"} if working offline
 
 --- /collapse ---
 
