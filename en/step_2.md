@@ -1,10 +1,10 @@
 ## How still can you be?
 
-If working **online**, open the [starter project](http://rpf.io/grow-a-tree-on){:target="_blank"} in Scratch.
+**Online:** open the [starter project](http://rpf.io/grow-a-tree-on){:target="_blank"} in Scratch.
 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the [project starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see yourself with a wood in the background and a tiny tree. The project works best in full screen mode. Click the green flag to play the game. Stay very still and the tiny tree will grow and grow. If you move, the tree will shrink in size.
+You should see yourself with a wood in the background and a tiny tree. The project works best in full-screen mode. Click on the green flag to play the game. Stay very still, and the tiny tree will grow and grow. If you move, the tree will shrink in size.
 
 --- no-print ---
 ![complete project](images/showcase.gif)
@@ -16,7 +16,7 @@ You should see yourself with a wood in the background and a tiny tree. The proje
 
 ## Set the screen
 
-The **Tree** sprite is difficult to see at the start of the game. You're going to work on the first part of the program to make the **Tree** sprite bigger. You will also improve the instructions for the player!
+The **Tree** sprite is difficult to see at the start of the game. First, you will work on the first part of the program to make the **Tree** sprite bigger. You will also improve the instructions for the player!
 
 --- task ---
 + Open the **Code** editor.
@@ -35,15 +35,15 @@ say [Keep still!] for (2) seconds ::looks
 --- /task ---
 
 ## Build the camera detector
-That's the set-up done. A `forever`{:class="block3control"} block wraps around the rest of the program so it runs forever (or until the game ends).
+The setup is finished. A `forever`{:class="block3control"} block wraps around the rest of the program so that it runs forever (or until the game ends).
 
-Inside the `forever`{:class="block3control"} block are two conditions: `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"} - they are great for developing user interaction. Let's see how.
+Inside the `forever`{:class="block3control"} block, there are two conditions: `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}. They are great for developing user interaction. Here, you will see how.
 
-The `Video Sensing`{:class="block3extensions"} is set to pick up any motion on the stage.
+The `Video Sensing`{:class="block3extensions"} is set to pick up any motion on the Stage.
 ```blocks3
 <(video [motion v] on [stage v] ::video) < (10)>
 ```
-In the first condition, if the player moves less than 10 then, the size of the **Tree** sprite increases by 1, else the **Tree** sprite shrinks by -1.
+In the first condition, if the player moves less than 10, then the size of the **Tree** sprite increases by 1, else the **Tree** sprite shrinks by -1.
 
 ```blocks3
 	if <(video [motion v] on [stage v] ::video) < (10)> then ::control 
@@ -55,7 +55,7 @@ In the first condition, if the player moves less than 10 then, the size of the *
 Shrinking the **Tree** sprite by -1 is the player's consequence for moving too much!
 
 --- task ---
-+ Try to improve the game for future players by changing the amount the **Tree** sprite grows or shrinks.
++ To try to improve the game for future players, change the amount that the **Tree** sprite grows or shrinks.
 
 ```blocks3
 change size by (1) ::looks
@@ -63,16 +63,16 @@ change size by (1) ::looks
 ```blocks3
 change size by (-1) ::looks
 ```
-+ Run the program again to check your changes. Top tip: cover the computer's camera with your finger to test your changes.
++ Run the program again to check your changes. **Tip:** Cover the computer's camera with your finger to test your changes.
 
 --- /task ---
 
-Does the game feel more responsive when you increase and/or decrease the size of **Tree** sprite? These are the kind of things that Games Developers have to consider when designing for user interaction.
+Does the game feel more responsive when you increase and/or decrease the size of **Tree** sprite? These are the kinds of things that games developers have to consider when designing for user interaction.
 
-## Stop **Tree** sprite from getting too big!
-Let's explore the second condition.
+## Stop the **Tree** sprite from getting too big!
+Next, explore the second condition.
 
-If the **Tree** sprite touches the edge of the stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"} - this stops the **Tree** sprite from growing so the tree doesn't get too big for the stage. `stop this script`{:class="block3control"} also stops the forever block.
+If the **Tree** sprite touches the edge of the Stage then the `say`{:class="block3looks"} block says "Well done!". Also included in this action is `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing so that the tree doesn't get too big for the Stage. `stop this script`{:class="block3control"} also stops the `forever`{:class="block3control"} block.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
@@ -80,11 +80,11 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 --- task ---
 
-+ Test the second condition by dragging the blocks (highlighted above) away from the main script in the Scratch project. 
++ To test the second condition, drag the blocks (highlighted above) away from the main script in the Scratch project. 
 
-+ Run the program again. Does the **Tree** sprite just keep on growing?
++ Run the program again. Does the **Tree** sprite keep growing?
 
-+ Now, drag the blocks back in to the script again.
++ Now, drag the blocks back into the script again.
 
 + Run the program to check your changes.
 --- /task ---
