@@ -1,6 +1,6 @@
 ## Introduction
 
-How still can you be? Make a movement detector using Scratch's Video Sensing extension block. The camera detects a player's movement - the stiller the player is, the more the tree will grow. Doing nothing is the aim of this game!
+How still can you be? Make a movement detector using the Scratch Video Sensing extension block. The camera detects a player's movement — the stiller the player is, the more the tree will grow. Doing nothing is the aim of this game!
 
 ### What you will make
 
@@ -18,7 +18,7 @@ title: What you will need
 ---
 ### Hardware
 
-+ A Computer or tablet capable of running Scratch
++ A computer or tablet capable of running Scratch
 
 ### Software
 
@@ -26,7 +26,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"} if working offline
++ If you are working offline, download the [project starter file](http://rpf.io/p/en/grow-a-tree-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -35,8 +35,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use the Scratch extension block; `Video Sensing`{:class="block3extensions"}
-+ How to use conditions; `if () then`{:class="block3control"} and `if () then, else`{:class="block3control"}
++ How to use the Scratch extension block, `Video Sensing`{:class="block3extensions"}
++ How to use conditions: `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}
 
 --- /collapse ---
 
