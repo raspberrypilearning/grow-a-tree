@@ -1,6 +1,8 @@
 ## What next?
 
-You've done really well exploring the Video Sensing block, as well as conditions `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}!
+In this project you have:
++ Used the `Video Sensing`{:class="block3extensions"} extension block to detect a user’s movement.
++ Used selection - `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"} - to grow or shrink the tree, and to tell the player when they’ve won the game.
 
 There are lots of other Scratch games, such as [Chatbot](https://projects.raspberrypi.org/en/projects/chatbot){:target="_blank"} and [Brain game](https://projects.raspberrypi.org/en/projects/brain-game){:target="_blank"}, which use conditions to create user interaction.
 
