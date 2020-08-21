@@ -74,7 +74,7 @@ Does the game feel more responsive when you increase and/or decrease the size of
 ## Stop the **Tree** sprite from getting too big!
 Next, explore the second condition.
 
-If the **Tree** sprite touches the edge of the Stage then the program `says`{:class="block3looks"} "Well done!". This action also includes `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing, so that the tree doesn't get too big for the Stage. The `stop this script`{:class="block3control"} block also stops the `forever`{:class="block3control"} loop.
+If the **Tree** sprite touches the edge of the Stage, then the program `says`{:class="block3looks"} "Well done!". This action also includes `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing, so that the tree doesn't get too big for the Stage. The `stop this script`{:class="block3control"} block also stops the `forever`{:class="block3control"} loop.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
