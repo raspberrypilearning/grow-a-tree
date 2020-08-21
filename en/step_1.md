@@ -1,6 +1,6 @@
 ## Introduction
 
-How still can you be? Make a movement detector using the Scratch Video Sensing extension block. The camera detects a player's movement — the stiller the player is, the more the tree will grow. Doing nothing is the aim of this game!
+How still can you be? Make a movement detector using the Scratch `Video Sensing`{:class="block3extensions"} extension blocks. The camera detects a player's movement — the stiller the player is, the more the tree will grow. Doing nothing is the aim of this game!
 
 ### What you will make
 
@@ -35,8 +35,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use the Scratch extension block, `Video Sensing`{:class="block3extensions"}
-+ How to use conditions: `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}
++ How to use the Scratch extension `Video Sensing`{:class="block3extensions"}
++ How to use the conditions `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}
 
 --- /collapse ---
 
