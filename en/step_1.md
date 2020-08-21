@@ -18,7 +18,7 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch
++ A computer or tablet, with a camera, capable of running Scratch
 
 ### Software
 
