@@ -69,7 +69,7 @@ change size by (-1) ::looks
 
 --- /task ---
 
-Does the game feel more responsive when you increase and/or decrease the size of **Tree** sprite? These are the kinds of things that games developers have to consider when designing for user interaction.
+Does the game feel more responsive when you increase and/or decrease the size of the **Tree** sprite? These are the kinds of things that games developers have to consider when designing for user interaction.
 
 ## Stop the **Tree** sprite from getting too big!
 Next, explore the second condition.
