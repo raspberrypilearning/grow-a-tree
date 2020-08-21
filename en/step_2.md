@@ -6,6 +6,8 @@
 
 You should see yourself with a wood in the background and a tiny tree. The project works best in full-screen mode. Click on the green flag to play the game. Stay very still, and the tiny tree will grow and grow. If you move, the tree will shrink.
 
+**Note:** This project uses your camera. If you see a pop-up asking for permission for Scratch to access your camera, allow it permission.
+
 --- no-print ---
 ![complete project](images/showcase.gif)
 --- /no-print ---
@@ -14,7 +16,7 @@ You should see yourself with a wood in the background and a tiny tree. The proje
 ![complete project](images/showcase.png)
 --- /print-only ---
 
-## Set the screen
+## Set up the start of the game
 
 The **Tree** sprite is difficult to see at the start of the game. First, you will work on the program to make the **Tree** sprite bigger. You will also improve the instructions for the player!
 
@@ -25,7 +27,7 @@ The **Tree** sprite is difficult to see at the start of the game. First, you wil
 
 + The **Tree** sprite is scaled to `10` percent of its actual size. Increase the value in the `set size to`{:class="block3looks"} block so that the **Tree** sprite is a bigger size at the start of the program.
 ```blocks3
-set size to [10%] ::looks
+set size to [10]% ::looks
 ```
 + The instructions currently `say`{:class="block3looks"} "Keep still!". That's a bit dull. Can you make the instructions more fun?
 ```blocks3
@@ -72,7 +74,7 @@ Does the game feel more responsive when you increase and/or decrease the size of
 ## Stop the **Tree** sprite from getting too big!
 Next, explore the second condition.
 
-If the **Tree** sprite touches the edge of the Stage then the program `says`{:class="block3looks"} "Well done!". This action also includes `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing, so that the tree doesn't get too big for the Stage. The `stop this script`{:class="block3control"} block also stops the `forever`{:class="block3control"} block.
+If the **Tree** sprite touches the edge of the Stage then the program `says`{:class="block3looks"} "Well done!". This action also includes `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing, so that the tree doesn't get too big for the Stage. The `stop this script`{:class="block3control"} block also stops the `forever`{:class="block3control"} loop.
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
@@ -80,7 +82,7 @@ if (touching [edge v] ? ::sensing) then ::control
 ```
 --- task ---
 
-+ To test the second condition, drag the blocks highlighted above away from the main script in the Scratch project. 
++ To test the second condition, drag the blocks in the image above away from the main script in the Scratch project. 
 
 + Run the program again. Does the **Tree** sprite keep growing?
 
