@@ -8,7 +8,7 @@ Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedb
 
 Explore two other extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another Starter project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
 
-If you've already completed  [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"} now go on to explore the [Look After Yourself(https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
+If you've already completed  [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"} now go on to explore the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
 You could try one of our other Scratch games, such as [Chatbot](https://projects.raspberrypi.org/en/projects/chatbot){:target="_blank"} and [Brain game](https://projects.raspberrypi.org/en/projects/brain-game){:target="_blank"}, which use conditions to create user interaction.
 
