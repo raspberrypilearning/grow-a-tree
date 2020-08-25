@@ -6,7 +6,7 @@ In this project, you have:
 
 Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedback button below.
 
-Explore two other extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another introduction project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
+Explore more extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another introductory project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
 
 If you've already completed [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"} go on to explore [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
