@@ -6,15 +6,9 @@ In this project, you have:
 
 Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedback button below.
 
-Explore two other extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another Starter project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
+Explore two other extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another introduction project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
 
-If you've already completed  [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"} now go on to explore the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
-
-You could try one of our other Scratch games, such as [Chatbot](https://projects.raspberrypi.org/en/projects/chatbot){:target="_blank"} and [Brain game](https://projects.raspberrypi.org/en/projects/brain-game){:target="_blank"}, which use conditions to create user interaction.
-
-Here are some other [projects that use the Scratch Video Sensing extension](https://scratch.mit.edu/studios/201435){:target="_blank"}.
-
-Why not use the `Video Sensing`{:class="block3extensions"} extension blocks to create another game involving movement detection, such as solo musical statues, for a friend to play?
+If you've already completed [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"} now go on to explore [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
 
 
