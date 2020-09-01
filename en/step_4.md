@@ -6,7 +6,7 @@ In this project, you have:
 
 You can explore more Scratch extensions, `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}, in another introductory project, [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}.
 
-If you have already completed [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}, try out the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
+If you have already completed [How are you?](https://projects.raspberrypi.org/en/projects/how-are-you){:target="_blank"}, try out the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
 Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
 
