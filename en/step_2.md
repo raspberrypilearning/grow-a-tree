@@ -30,14 +30,19 @@ The **Tree** sprite is difficult to see at the start of the game. First, you wil
 + `when green flag clicked`{:class="block3events"} starts the game. 
 
 + The **Tree** sprite is scaled to `10` percent of its actual size. Increase the value in the `set size to`{:class="block3looks"} block so that the **Tree** sprite is a bigger size at the start of the program.
+
 ```blocks3
 set size to [10]% ::looks
 ```
+
 + The instructions currently `say`{:class="block3looks"} "Keep still!". That's a bit dull. Can you make the instructions more fun?
+
 ```blocks3
 say [Keep still!] for (2) seconds ::looks
 ```
+
 + Run the program to check your changes.
+
 --- /task ---
 
 ## Build the movement detector
@@ -46,9 +51,11 @@ The setup is finished. A `forever`{:class="block3control"} block wraps around th
 Inside the `forever`{:class="block3control"} block, there are two conditions: `if ... then`{:class="block3control"} and `if ... then ... else`{:class="block3control"}. They are great for developing user interaction. Here, you will see how.
 
 The `Video Sensing`{:class="block3extensions"} block is set to pick up any motion on the Stage.
+
 ```blocks3
 <(video [motion v] on [stage v] ::video) < (10)>
 ```
+
 In the first condition, if the player moves less than `10`, then the size of the **Tree** sprite increases by `1`, else the **Tree** sprite shrinks by `-1`.
 
 ```blocks3
@@ -58,6 +65,7 @@ In the first condition, if the player moves less than `10`, then the size of the
 		change size by (-1) ::looks ::control
 	end
 ```
+
 Shrinking the **Tree** sprite by `-1` is what happens when the player moves too much!
 
 --- task ---
@@ -69,6 +77,7 @@ change size by (1) ::looks
 ```blocks3
 change size by (-1) ::looks
 ```
+
 + Run the program again to check your changes. **Tip:** Cover the computer's camera with your finger to test your changes.
 
 --- /task ---
@@ -79,6 +88,7 @@ Does the game feel more responsive when you increase and/or decrease the size of
 Next, explore the second condition.
 
 If the **Tree** sprite touches the edge of the Stage, then the program `says`{:class="block3looks"} "Well done!". This action also includes `stop this script`{:class="block3control"}. This stops the **Tree** sprite from growing, so that the tree doesn't get too big for the Stage. The `stop this script`{:class="block3control"} block also stops the `forever`{:class="block3control"} loop.
+
 ```blocks3
 if (touching [edge v] ? ::sensing) then ::control
 			say [Well done!] for (2) seconds ::looks
