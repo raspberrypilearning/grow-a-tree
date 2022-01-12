@@ -1,12 +1,16 @@
+---
 title: Grow a tree
 hero_image: images/introduction.png
-description: Stay as still as you can to grow a tree using a computer's camera to detect any movement
+description: Stay as still as you can to grow a tree using a computer's camera to
+  detect any movement
 version: 7
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
-  - title: Introduction
-  - title: How still can you be?
-  - title: 'Challenge: change conditions'
-  - title: What next?
+- title: Introduction
+  completion: engaged
+- title: How still can you be?
+  completion: internal
+- title: 'Challenge: change conditions'
+- title: What next?
