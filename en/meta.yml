@@ -9,8 +9,9 @@ copyedit: true
 last_tested: '2020-09-01'
 steps:
 - title: Introduction
-  completion: engaged
 - title: How still can you be?
-  completion: internal
+  completion:
+  - engaged
+  - internal
 - title: 'Challenge: change conditions'
 - title: What next?
