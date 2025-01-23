@@ -12,6 +12,9 @@ steps:
 - title: How still can you be?
   completion:
   - engaged
-  - internal
 - title: 'Challenge: change conditions'
+  completion:
+  - internal
 - title: What next?
+  completion:
+  - external
