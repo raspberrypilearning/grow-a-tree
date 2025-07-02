@@ -15,6 +15,5 @@ steps:
 - title: 'Challenge: change conditions'
   completion:
   - internal
-- title: What next?
   completion:
   - external
